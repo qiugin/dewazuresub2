@@ -22,6 +22,7 @@ if (isset($_POST['submit'])) {
      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
      <title>Dew Azure Web</title>
 	<script src="jquery.min.js"></script>
+	<link rel="stylesheet" href="style.css">
 	</head>
 
 <body>
@@ -111,7 +112,7 @@ if (isset($_POST['submit'])) {
 			<div id="jsonOutput">
 				<b>Response:</b><br><br>
 				<textarea id="responseTextArea" class="UIInput"
-						style="width:580px; height:400px;" readonly></textarea>
+						style="height:400px;" readonly></textarea>
 			</div>
 			
 		</div>

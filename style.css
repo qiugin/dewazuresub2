@@ -1,10 +1,53 @@
-body{
-    background: grey;
-}
+
 
 #imageDiv{
     display: block;
+    background-color: red;
+
 }
 #jsonOutput{
     display: block;
+    background-color: red;
+
 }
+
+@media only screen and (min-width: 300px) {
+    #imageDiv, #jsonOutput{
+        background-color: blue;
+        width: 300px;
+    }
+
+    textarea{
+        width: 300px;
+
+    }
+
+    img{
+        width: 300px;
+
+    }
+  }
+@media only screen and (min-width: 400px) {
+    #imageDiv, #jsonOutput{
+        background-color: yellow;
+        width: 400px;
+    }
+  }
+
+@media only screen and (min-width: 600px) {
+    #imageDiv{
+        background-color: red;
+    }
+  }
+
+@media only screen and (min-width: 768px) {
+    #imageDiv{
+        background-color: green;
+    }
+  }
+
+@media only screen and (min-width: 968px) {
+    #imageDiv{
+        background-color: grey;
+    }
+  }
